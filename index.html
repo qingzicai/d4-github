@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>github login</title>
+    <style>
+        #github_logo {
+            width: 3rem;
+            height: 3rem;
+            display: grid;
+            place-items: center margin-top: auto;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 50px;
+        }
+
+        h2 {
+            padding-left: 1rem;
+            padding-right: 1rem;
+            padding-top: 1rem;
+            padding-bottom: 1rem;
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+            width: 250px;
+        }
+
+        form {
+            background-color: gainsboro;
+            size-adjust: 60px;
+            padding-left: 1rem;
+            padding-right: 1rem;
+            padding-top: 1rem;
+            padding-bottom: 1rem;
+            text-align: center;
+            margin-top: 1rem;
+            margin-bottom: 2rem;
+            width: fit-content;
+            margin-left: auto;
+            margin-right: auto;
+            width: 250px;
+        }
+
+        #sign_in {
+            align-items: center;
+            padding-left: 0.5rem;
+            padding-right: 0.5rem;
+            background-color: greenyellow;
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+            width: 150px;
+
+
+        }
+
+        #creat_account {
+            border-style: solid;
+            border-color: grey;
+            border-width: 1px;
+            border-radius: 0.1cm;
+            padding-left: 0.5rem;
+            padding-right: 0.5rem;
+            padding-top: 0.5rem;
+            padding-bottom: 0.5rem;
+            text-align: center;
+            margin-bottom: 3rem;
+            width: 260px;
+            margin-left: auto;
+            margin-right: auto;
+
+        }
+
+        .footer_items {
+            text-align: inline-block;
+            float: left;
+            font-size: small;
+            color: blue;
+            padding-right: 0.5rem;
+            margin-top: 2rem;
+            margin-left: auto;
+            margin-right: auto;
+
+        }
+
+        footer {
+            text-align: center;
+            width: 250px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        #contact {
+            color: azure;
+        }
+
+        a:link {
+            color: royalblue;
+            background-color: transparent;
+            text-decoration: none;
+        }
+
+        a:visited {
+            color: beige;
+            background-color: transparent;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: green;
+            background-color: transparent;
+            text-decoration: underline;
+        }
+
+        a:active {
+            color: yellow;
+            background-color: transparent;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+
+
+<body>
+    <header>
+        <div><img id="github_logo" src="github_logo.png" alt="Github_logo"></img></div>
+        <h2>Sign in to Github</h2>
+    </header>
+
+    <form>
+        <label for="username_input">Username or email address</label><br>
+        <input type="text" id="username_input"><br><br>
+        <label for="password">Password</label>
+        <a href="#">Forgot password?</a><br>
+        <input type="password" id="password"><br><br>
+
+        <input type="submit" id="sign_in" value="Sign in">
+    </form>
+
+    <div id="creat_account">New to GitHub? <a href="#"> Create an account</a>
+        <div>
+</body>
+
+<footer>
+    <div class="footer_items">Terms</div>
+    <div class="footer_items">Privacy</div>
+    <div class="footer_items">Security</div>
+    <div class="footer_items" id="contact"><a href="#">Contact Github<a></div>
+</footer>
+
+</html>
